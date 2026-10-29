@@ -1,0 +1,23 @@
+T2 measurement by creating chunk files:
+
+** Goal is to create sub-files during the measurement to plot the data and check that everything is fine.
+* This is done using hydra.measure_timestamps_T2_chunked(self, acq_time, filename_prefix, chunk_time)
+
+* Then, we can merge all the chunk files in one big file using hydra.merge_chunk_files(self, filename_prefix)
+
+** We ideally want to analyze the data while measuring. To this end, the function 
+run_parallel(self, acq_time, chunk_time, filename_prefix, dp_merged) 
+has been defined. The files can be accessed during the measurement and they can be merged successfully.
+However, for an unknown reason, the function 'correlate_parallel' does not work here.
+It was working when implemented in the hydra Class directly, maybe this is really needed in the end.
+This is the last big problem to solve. 
+
+TODO:
+- correlate_parallel does not work if not defined as a function of Hydraharp_srv
+- adapt sleep time when looking for new files such tha the patching of chunk files is complete.
+
+At the moment:
+- Copy-paste the content of the Parallel_T2 in a cmd in G9 and run the Hydraharp _srv.py in G13.
+
+
+

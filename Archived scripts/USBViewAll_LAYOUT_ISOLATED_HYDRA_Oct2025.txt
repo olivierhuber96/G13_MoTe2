@@ -1,0 +1,1367 @@
+My Computer
+USB xHCI Compliant Host Controller
+
+
+DriverKey: {36fc9e60-c465-11cf-8056-444553540000}\0000
+VendorID: 8086
+DeviceID: A2AF
+SubSysID: 07DB1028
+Revision: 00
+
+Debug Port Number:  0
+Bus.Device.Function (in decimal): 0.20.0
+
+Host Controller Power State Mappings
+System State		Host Controller		Root Hub	USB wakeup	Powered
+S0 (working)    	D0              	S? (unmapped)   		
+S1 (sleep)      	D? (unspecified)	D3              		
+S2 (sleep)      	D? (unspecified)	D3              		
+S3 (sleep)      	D3              	D2              Yes		Yes
+S4 (Hibernate)  	D3              	D2              Yes		Yes
+Last Sleep State	S? (unmapped)   
+RootHub
+
+
+Root Hub: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Hub Power:                    Self Power
+Number of Ports:              26
+Power switching:              Ganged
+Compound device:              No
+Over-current Protection:      Global
+High speed capable:           No
+High speed:                   Yes
+Multiple transaction translations capable:                 No
+Performs multiple transaction translations simultaneously: No
+Hub wakes when device is connected:                        No
+Hub is bus powered:           No
+Hub is root:                  Yes
+[Port1]  :  USB Input Device
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+Device Power State:               PowerDeviceD0
+
+
+       ---===>Device Information<===---
+English product name: "USB-PS/2 Optical Mouse"
+
+ConnectionStatus:                  
+Current Config Value:              0x01  -> Device Bus Speed: Low
+Device Address:                    0x01
+Open Pipes:                           1
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0200
+bDeviceClass:                      0x00  -> This is an Interface Class Defined Device
+bDeviceSubClass:                   0x00
+bDeviceProtocol:                   0x00
+bMaxPacketSize0:                   0x08 = (8) Bytes
+idVendor:                        0x046D = Logitech Inc.
+idProduct:                       0xC050
+bcdDevice:                       0x2720
+iManufacturer:                     0x01
+     English (United States)  "Logitech"
+iProduct:                          0x02
+     English (United States)  "USB-PS/2 Optical Mouse"
+iSerialNumber:                     0x00
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0005
+bInterval:                         0x0A
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x0022  -> Validated
+bNumInterfaces:                    0x01
+bConfigurationValue:               0x01
+iConfiguration:                    0x00
+bmAttributes:                      0xA0  -> Bus Powered
+  -> Remote Wakeup
+MaxPower:                          0x31 =  98 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x01
+bInterfaceClass:                   0x03  -> HID Interface Class
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x02
+iInterface:                        0x00
+
+          ===>HID Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x21
+bcdHID:                          0x0110
+bCountryCode:                      0x00
+bNumDescriptors:                   0x01
+bDescriptorType:                   0x22 (Report Descriptor)
+wDescriptorLength:               0x003B
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0005
+bInterval:                         0x0A
+[Port2]  :  USB Input Device
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+Device Power State:               PowerDeviceD0
+
+
+       ---===>Device Information<===---
+English product name: "Dell USB Keyboard"
+
+ConnectionStatus:                  
+Current Config Value:              0x01  -> Device Bus Speed: Low
+Device Address:                    0x02
+Open Pipes:                           1
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0110
+bDeviceClass:                      0x00  -> This is an Interface Class Defined Device
+bDeviceSubClass:                   0x00
+bDeviceProtocol:                   0x00
+bMaxPacketSize0:                   0x08 = (8) Bytes
+idVendor:                        0x413C = Dell Inc.
+idProduct:                       0x2003
+bcdDevice:                       0x0301
+iManufacturer:                     0x01
+     English (United States)  "Dell"
+iProduct:                          0x02
+     English (United States)  "Dell USB Keyboard"
+iSerialNumber:                     0x00
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0008
+bInterval:                         0x18
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x0022  -> Validated
+bNumInterfaces:                    0x01
+bConfigurationValue:               0x01
+iConfiguration:                    0x00
+bmAttributes:                      0xA0  -> Bus Powered
+  -> Remote Wakeup
+MaxPower:                          0x23 =  70 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x01
+bInterfaceClass:                   0x03  -> HID Interface Class
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>HID Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x21
+bcdHID:                          0x0110
+bCountryCode:                      0x00
+bNumDescriptors:                   0x01
+bDescriptorType:                   0x22 (Report Descriptor)
+wDescriptorLength:               0x0041
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0008
+bInterval:                         0x18
+[Port3] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port4] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port5]  :  ASIX AX88772 USB2.0 to Fast Ethernet Adapter
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+Device Power State:               PowerDeviceD0
+
+
+       ---===>Device Information<===---
+English product name: "AX88x72A"
+
+ConnectionStatus:                  
+Current Config Value:              0x01  -> Device Bus Speed: High (is not SuperSpeed or higher capable)
+Device Address:                    0x03
+Open Pipes:                           3
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0200
+bDeviceClass:                      0xFF  -> This is a Vendor Specific Device
+bDeviceSubClass:                   0xFF
+bDeviceProtocol:                   0x00
+bMaxPacketSize0:                   0x40 = (64) Bytes
+idVendor:                        0x0B95 = ASIX Electronics Corporation
+idProduct:                       0x7720
+bcdDevice:                       0x0001
+iManufacturer:                     0x01
+     English (United States)  "ASIX Elec. Corp."
+iProduct:                          0x02
+     English (United States)  "AX88x72A"
+iSerialNumber:                     0x03
+     English (United States)  "000001"
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0008 = 1 transactions per microframe, 0x08 max bytes
+bInterval:                         0x0B
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x82  -> Direction: IN - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0200 = 0x200 max bytes
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0200 = 0x200 max bytes
+bInterval:                         0x00
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x0027  -> Validated
+bNumInterfaces:                    0x01
+bConfigurationValue:               0x01
+iConfiguration:                    0x04
+     English (United States)  "0"
+bmAttributes:                      0xA0  -> Bus Powered
+  -> Remote Wakeup
+MaxPower:                          0x7D = 250 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x03
+bInterfaceClass:                   0xFF  -> Interface Class Unknown to USBView
+bInterfaceSubClass:                0xFF
+bInterfaceProtocol:                0x00
+iInterface:                        0x07
+     English (United States)  "0"
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0008 = 1 transactions per microframe, 0x08 max bytes
+bInterval:                         0x0B
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x82  -> Direction: IN - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0200 = 0x200 max bytes
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0200 = 0x200 max bytes
+bInterval:                         0x00
+[Port6] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port7] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            18
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port8]  :  Intel(R) Wireless Bluetooth(R)
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+Device Power State:               PowerDeviceD2
+
+
+       ---===>Device Information<===---
+
+ConnectionStatus:                  
+Current Config Value:              0x01  -> Device Bus Speed: Full (is not SuperSpeed or higher capable)
+Device Address:                    0x04
+Open Pipes:                           5
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0200
+bDeviceClass:                      0xE0  -> This is a Wireless Controller(Bluetooth) Device
+bDeviceSubClass:                   0x01
+*!*ERROR:  bDeviceSubClass of 1 is invalid
+bDeviceProtocol:                   0x01
+bMaxPacketSize0:                   0x40 = (64) Bytes
+idVendor:                        0x8087 = Intel
+idProduct:                       0x0A2A
+bcdDevice:                       0x0001
+iManufacturer:                     0x00
+iProduct:                          0x00
+iSerialNumber:                     0x00
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x02  -> Direction: OUT - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x82  -> Direction: IN - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0000 = 0x00 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0000 = 0x00 bytes
+bInterval:                         0x01
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x00B1  -> Validated
+bNumInterfaces:                    0x02
+bConfigurationValue:               0x01
+iConfiguration:                    0x00
+bmAttributes:                      0xE0  -> Self Powered
+  -> Remote Wakeup
+MaxPower:                          0x32 = 100 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x03
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x02  -> Direction: OUT - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x82  -> Direction: IN - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0000 = 0x00 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0000 = 0x00 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x01
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0009 = 0x09 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0009 = 0x09 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x02
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0011 = 0x11 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0011 = 0x11 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x03
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0019 = 0x19 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0019 = 0x19 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x04
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0021 = 0x21 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0021 = 0x21 bytes
+bInterval:                         0x01
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x01
+bAlternateSetting:                 0x05
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xE0  -> This is a Wireless RF Controller USB Device Interface Class with Bluetooth Programming Interface
+bInterfaceSubClass:                0x01
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x03  -> Direction: OUT - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0031 = 0x31 bytes
+bInterval:                         0x01
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x01  -> Isochronous Transfer Type, Synchronization Type = No Synchronization, Usage Type = Data Endpoint
+wMaxPacketSize:                  0x0031 = 0x31 bytes
+bInterval:                         0x01
+[Port9] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            19
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port10] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            22
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port11] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            20
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port12]  :  USB Test and Measurement Device (IVI)
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            23
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+Device Power State:               PowerDeviceD0
+
+
+       ---===>Device Information<===---
+English product name: "TSP01"
+
+ConnectionStatus:                  
+Current Config Value:              0x01  -> Device Bus Speed: Full (is not SuperSpeed or higher capable)
+Device Address:                    0x05
+Open Pipes:                           3
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0200
+bDeviceClass:                      0x00  -> This is an Interface Class Defined Device
+bDeviceSubClass:                   0x00
+bDeviceProtocol:                   0x00
+bMaxPacketSize0:                   0x40 = (64) Bytes
+idVendor:                        0x1313 = THORLABS, INC
+idProduct:                       0x80F8
+bcdDevice:                       0x0100
+iManufacturer:                     0x01
+     English (United States)  "Thorlabs"
+iProduct:                          0x02
+     English (United States)  "TSP01"
+iSerialNumber:                     0x03
+     English (United States)  "M00276595"
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x02  -> Direction: OUT - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x84  -> Direction: IN - EndpointID: 4
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0002 = 0x02 bytes
+bInterval:                         0x01
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x0027  -> Validated
+bNumInterfaces:                    0x01
+bConfigurationValue:               0x01
+iConfiguration:                    0x00
+bmAttributes:                      0x80  -> Bus Powered
+MaxPower:                          0x0C =  24 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x03
+bInterfaceClass:                   0xFE  -> This is an Application Specific USB Device Interface Class
+  -> This is a Test & Measurement Class (USBTMC) Application Specific USB Device Interface Class
+bInterfaceSubClass:                0x03
+bInterfaceProtocol:                0x01
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x02  -> Direction: OUT - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x83  -> Direction: IN - EndpointID: 3
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0040 = 0x40 bytes
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x84  -> Direction: IN - EndpointID: 4
+bmAttributes:                      0x03  -> Interrupt Transfer Type
+wMaxPacketSize:                  0x0002 = 0x02 bytes
+bInterval:                         0x01
+[Port13] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            17
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port14] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            21
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port15] 
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port16] 
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            no
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port17] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            13
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port18] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            7
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port19] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            9
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port20] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            11
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port21] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            14
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port22] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            10
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port23] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            12
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#4&301d60fd&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port24] 
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            yes
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port25] 
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            yes
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port26] 
+
+
+Is Port User Connectable:         no
+Is Port Debug Capable:            yes
+Companion Port Number:            0
+Companion Hub Symbolic Link Name: 
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+USB xHCI Compliant Host Controller
+
+
+DriverKey: {36fc9e60-c465-11cf-8056-444553540000}\0001
+VendorID: 1B21
+DeviceID: 1242
+SubSysID: 07DB1028
+Revision: 00
+
+Debug Port Number:  1
+Bus.Device.Function (in decimal): 3.0.0
+
+Host Controller Power State Mappings
+System State		Host Controller		Root Hub	USB wakeup	Powered
+S0 (working)    	D0              	S? (unmapped)   		
+S1 (sleep)      	D? (unspecified)	D3              		
+S2 (sleep)      	D? (unspecified)	D3              		
+S3 (sleep)      	D3              	D2              Yes		Yes
+S4 (Hibernate)  	D3              	D2              Yes		Yes
+Last Sleep State	S? (unmapped)   
+RootHub
+
+
+Root Hub: USB#ROOT_HUB30#5&263db26a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Hub Power:                    Self Power
+Number of Ports:              4
+Power switching:              Ganged
+Compound device:              No
+Over-current Protection:      Global
+High speed capable:           No
+High speed:                   Yes
+Multiple transaction translations capable:                 No
+Performs multiple transaction translations simultaneously: No
+Hub wakes when device is connected:                        No
+Hub is bus powered:           No
+Hub is root:                  Yes
+[Port1]  :  PicoQuant HydraHarp USB3.0
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            3
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&263db26a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+Device Power State:               PowerDeviceD0
+
+
+       ---===>Device Information<===---
+English product name: "HydraHarp 400"
+
+ConnectionStatus:                  
+Current Config Value:              0x01
+Device Bus Speed: SuperSpeed
+Device Address:                    0x01
+Open Pipes:                           2
+
+          ===>Device Descriptor<===
+bLength:                           0x12
+bDescriptorType:                   0x01
+bcdUSB:                          0x0300
+bDeviceClass:                      0x00  -> This is an Interface Class Defined Device
+bDeviceSubClass:                   0x00
+bDeviceProtocol:                   0x00
+bMaxPacketSize0:                   0x09 = (9) Bytes
+idVendor:                        0x0E0D = Picoquant GmbH
+idProduct:                       0x0009
+bcdDevice:                       0x0001
+iManufacturer:                     0x01
+     English (United States)  "PicoQuant"
+iProduct:                          0x02
+     English (United States)  "HydraHarp 400"
+iSerialNumber:                     0x03
+     English (United States)  "1019642"
+bNumConfigurations:                0x01
+
+          ---===>Open Pipes<===---
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0400
+bInterval:                         0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x02  -> Direction: OUT - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0400
+bInterval:                         0x00
+
+       ---===>Full Configuration Descriptor<===---
+
+          ===>Configuration Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x02
+wTotalLength:                    0x002C  -> Validated
+bNumInterfaces:                    0x01
+bConfigurationValue:               0x01
+iConfiguration:                    0x00
+bmAttributes:                      0xC0  -> Self Powered
+MaxPower:                          0x01 =   8 mA
+
+          ===>Interface Descriptor<===
+bLength:                           0x09
+bDescriptorType:                   0x04
+bInterfaceNumber:                  0x00
+bAlternateSetting:                 0x00
+bNumEndpoints:                     0x02
+bInterfaceClass:                   0xFF  -> Interface Class Unknown to USBView
+bInterfaceSubClass:                0x00
+bInterfaceProtocol:                0x00
+iInterface:                        0x00
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x81  -> Direction: IN - EndpointID: 1
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0400
+bInterval:                         0x00
+
+ ===>SuperSpeed Endpoint Companion Descriptor<===
+bLength:                           0x06
+bDescriptorType:                   0x30
+bMaxBurst:                         0x07
+bmAttributes:                      0x00The bulk endpoint does not define streams (MaxStreams == 0)
+wBytesPerInterval:                 0x0000
+
+          ===>Endpoint Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x05
+bEndpointAddress:                  0x02  -> Direction: OUT - EndpointID: 2
+bmAttributes:                      0x02  -> Bulk Transfer Type
+wMaxPacketSize:                  0x0400
+bInterval:                         0x00
+
+ ===>SuperSpeed Endpoint Companion Descriptor<===
+bLength:                           0x06
+bDescriptorType:                   0x30
+bMaxBurst:                         0x0F
+bmAttributes:                      0x00The bulk endpoint does not define streams (MaxStreams == 0)
+wBytesPerInterval:                 0x0000
+
+          ===>BOS Descriptor<===
+bLength:                           0x05
+bDescriptorType:                   0x0F
+wTotalLength:                      0x0016
+bNumDeviceCaps:                    0x02
+
+          ===>USB 2.0 Extension Descriptor<===
+bLength:                           0x07
+bDescriptorType:                   0x10
+bDevCapabilityType:                0x02
+bmAttributes:                      0x00000002  -> Supports Link Power Management protocol
+
+          ===>SuperSpeed USB Device Capability Descriptor<===
+bLength:                           0x0A
+bDescriptorType:                   0x10
+bDevCapabilityType:                0x03
+bmAttributes:                      0x00
+wSpeedsSupported:                  0x0E
+  -> Supports full-speed operation
+  -> Supports high-speed operation
+  -> Supports SuperSpeed operation
+bFunctionalitySupport:             0x01 -> lowest speed = full-speed
+bU1DevExitLat:                     0x01 -> less than 1 micro-seconds
+wU2DevExitLat:                     0x0065 -> less than 101 micro-seconds
+[Port2] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            4
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&263db26a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port3] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            1
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&263db26a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port4] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            2
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&263db26a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+USB xHCI Compliant Host Controller
+
+
+DriverKey: {36fc9e60-c465-11cf-8056-444553540000}\0009
+VendorID: 1B73
+DeviceID: 1100
+SubSysID: 11001B73
+Revision: 10
+
+Debug Port Number:  0
+Bus.Device.Function (in decimal): 2.0.0
+
+Host Controller Power State Mappings
+System State		Host Controller		Root Hub	USB wakeup	Powered
+S0 (working)    	D0              	S? (unmapped)   		
+S1 (sleep)      	D? (unspecified)	D3              		
+S2 (sleep)      	D? (unspecified)	D3              		
+S3 (sleep)      	D3              	D3              		
+S4 (Hibernate)  	D3              	D3              		
+Last Sleep State	S? (unmapped)   
+RootHub
+
+
+Root Hub: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Hub Power:                    Self Power
+Number of Ports:              8
+Power switching:              Ganged
+Compound device:              No
+Over-current Protection:      Global
+High speed capable:           No
+High speed:                   Yes
+Multiple transaction translations capable:                 No
+Performs multiple transaction translations simultaneously: No
+Hub wakes when device is connected:                        No
+Hub is bus powered:           No
+Hub is root:                  Yes
+[Port1] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            5
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port2] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            6
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port3] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            7
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port4] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            no
+Companion Port Number:            8
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         yes
+ USB 2.0:                         yes
+ USB 3.0:                         no
+
+ConnectionStatus:      NoDeviceConnected
+[Port5] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            1
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port6] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            2
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port7] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            3
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
+[Port8] 
+
+
+Is Port User Connectable:         yes
+Is Port Debug Capable:            yes
+Companion Port Number:            4
+Companion Hub Symbolic Link Name: USB#ROOT_HUB30#5&224da9d4&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+Protocols Supported:
+ USB 1.1:                         no
+ USB 2.0:                         no
+ USB 3.0:                         yes
+
+ConnectionStatus:      NoDeviceConnected
